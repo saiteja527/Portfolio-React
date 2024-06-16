@@ -7,6 +7,7 @@ import MyWork from '../src/Components/MyWork/MyWork'
 import Contact from '../src/Components/Contact/Contact'
 import Footer from '../src/Components/Footer/Footer'
 import Skills from './Components/Skills/Skills'
+import ScrollToTopButton from './Components/ScrollToTopButton/ScrollToTopButton'
 const App = () => {
   return (
     <div>
@@ -18,6 +19,7 @@ const App = () => {
       <Services />
       <Contact />
       <Footer />
+      <ScrollToTopButton />
     </div>
   )
 }

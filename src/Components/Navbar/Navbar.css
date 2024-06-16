@@ -18,19 +18,9 @@
     gap: 50px;
     font-size: 22px;
 }
-.nav-connect{
-    padding: 15px 20px;
-    border-radius: 50px;
-    background: linear-gradient(267deg, #2189a3 0.36%, #a200cf 102.06%);
-    font-size: 16px;
-    cursor: pointer;
-    transition: 0.5s;
-}
+
 .logo{
     width: 200px;
-}
-.nav-connect:hover{
-    transform: scale(1.05);
 }
 .nav-menu li{
     display: flex;

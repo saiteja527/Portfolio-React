@@ -1,0 +1,55 @@
+/* Base styles */
+.connect-btn {
+  display: flex;
+  align-items: center;
+  font-family: inherit;
+  cursor: pointer;
+  font-size: 17px; 
+  padding: 20px;
+  color: white;
+  background: #ad5389;
+  background: linear-gradient(267deg, #2189a3 6%, #a200cf 100%);
+  border: none;
+  letter-spacing: 0.05em;
+  border-radius: 50px;
+  transition: all 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+.connect-btn svg {
+  margin-right: 3px;
+  transform: rotate(30deg);
+  transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+.connect-btn span {
+  transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+.connect-btn:hover svg {
+  transform: translateX(5px) rotate(90deg);
+}
+
+.connect-btn:hover span {
+  transform: translateX(7px);
+}
+
+@media (max-width: 768px) {
+  .connect-btn {
+    font-size: 16px; 
+    padding: 13px ; 
+  }
+}
+
+@media (max-width: 480px) {
+  .connect-btn {
+    font-size: 12px;
+    padding: 10px; 
+    height: 50px;
+    width: 150px;
+  }
+
+  .connect-btn svg {
+    height: 20px;
+    width: 20px; 
+  }
+}

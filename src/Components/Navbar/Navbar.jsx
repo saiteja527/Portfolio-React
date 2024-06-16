@@ -5,6 +5,7 @@ import underline from '../../assets/theme_pattern.png'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import menu_open from '../../assets/menu_open.svg'
 import menu_close from '../../assets/menu_close.svg'
+import ConnectBtn from './connect-btn/connectbtn'
 
 const Navbar = () => {
 
@@ -30,8 +31,8 @@ const Navbar = () => {
                 <li><AnchorLink className='anchor-link' offset={50} href='#services'><p onClick={() => setMenu("services")}>Services</p></AnchorLink>{menu === "services" ? <img src={underline} alt='' /> : <></>}</li>
                 <li><AnchorLink className='anchor-link' offset={50} href='#contact'><p onClick={() => setMenu("contact")}>Contact</p></AnchorLink>{menu === "contact" ? <img src={underline} alt='' /> : <></>}</li>
             </ul>
-            <div className="nav-connect"><AnchorLink className='anchor-link' offset={50} href='#contact'>Connect With Me</AnchorLink></div>
-        </div>
+            <div className="nav-connect"><AnchorLink className='anchor-link' offset={50} href='#contact'><ConnectBtn /></AnchorLink></div>
+        </div >
     )
 }
 
