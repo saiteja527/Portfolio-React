@@ -23,7 +23,7 @@ const Hero = () => {
       </p>
       <div className="hero-action">
         <div className="hero-connect"><AnchorLink className='anchor-link' offset={50} href='#contact'><ConnectBtn /></AnchorLink></div>
-        <div className="hero-resume"><a href="https://firebasestorage.googleapis.com/v0/b/portfolio-d1618.appspot.com/o/BODDEPALLI%20SAI%20TEJA's%20RESUME.pdf?alt=media&token=b912f516-4ea1-495c-804c-056f445cf518"><ResumeBtn /></a></div>
+        <div className="hero-resume"><a href="https://firebasestorage.googleapis.com/v0/b/portfolio-d1618.appspot.com/o/SAITEJA'S%20Resume.pdf?alt=media&token=bf8a2ace-96cc-42d3-8eb8-88171cccba8a"><ResumeBtn /></a></div>
       </div>
     </div>
   )
