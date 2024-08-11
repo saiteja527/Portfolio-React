@@ -14,19 +14,30 @@ const Hero = () => {
     deleteSpeed: 40
   })
   return (
-    <div id='home' className='hero'>
-      <img src={profile_img} alt="" className='profile-img' />
+    <div id="home" className="hero">
+      <img src={profile_img} alt="" className="profile-img" />
       <h1>I'm Boddepalli Sai Teja</h1>
-      <p> I am a {' '}
-        <span>{typeeffect}</span>
-        <span style={{ color: '#2189a3' }}><Cursor /></span>
+      <p>
+        {" "}
+        I am a <span>{typeeffect}</span>
+        <span style={{ color: "#2189a3" }}>
+          <Cursor />
+        </span>
       </p>
       <div className="hero-action">
-        <div className="hero-connect"><AnchorLink className='anchor-link' offset={50} href='#contact'><ConnectBtn /></AnchorLink></div>
-        <div className="hero-resume"><a href="https://firebasestorage.googleapis.com/v0/b/portfolio-d1618.appspot.com/o/SAITEJA'S%20Resume.pdf?alt=media&token=bf8a2ace-96cc-42d3-8eb8-88171cccba8a"><ResumeBtn /></a></div>
+        <div className="hero-connect">
+          <AnchorLink className="anchor-link" offset={50} href="#contact">
+            <ConnectBtn />
+          </AnchorLink>
+        </div>
+        <div className="hero-resume">
+          <a href="https://drive.google.com/file/d/1uII03Wk0N1DAhj4XPX5tEKZXEyUczKhq/view?usp=sharing">
+            <ResumeBtn />
+          </a>
+        </div>
       </div>
     </div>
-  )
+  );
 }
 
 export default Hero
